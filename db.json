@@ -1,3 +1,11 @@
 {
-  "notes": []
+  "notes": [
+    {
+      "tags": [
+        "to-do"
+      ],
+      "content": "complete this cli",
+      "id": 1737551447844
+    }
+  ]
 }
