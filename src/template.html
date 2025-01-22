@@ -4,11 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Note CLI by Arpan</title>
+    <title>Note CLI</title>
 </head>
 
+<style>
+    body {
+        background-color: rgb(170, 227, 170);
+    }
+
+    table {
+        font-family: 'Helvetica Neue', sans-serif, sans-serif;
+        border-collapse: collapse;
+        width: 70%;
+        margin: 30px auto;
+    }
+
+    td,
+    th {
+        border: 7px double #581313;
+        text-align: left;
+        padding: 10px 10px;
+    }
+
+    th {
+        background-color: green;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    td {
+        padding: 0px 10px;
+        font-size: 20px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #a5bea083;
+    }
+</style>
+
 <body>
-    {{ notes }}
+    <table>
+        <tr>
+            <th>Content</th>
+            <th>Tags</th>
+        </tr>
+        {{ notes }}
+    </table>
 </body>
 
 </html>

@@ -1,6 +1,4 @@
-// file for accessing db queries 
 import { insert, getDB, saveDB } from './db.js'
-
 // creating new note
 export const newNote = async (note, tags) => {
   const data = {
