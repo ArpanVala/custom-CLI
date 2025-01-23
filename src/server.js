@@ -12,7 +12,7 @@ const formatNotes = notes => {
             <p>${note.content}</p>
         </td>
         <td className="tag">
-            <p>${note.tags.map(tag => `<span> ${tag}</span>`).join('')}</p>
+            <p>${note.tags.map(tag => `<button> ${tag}</button>`).join('')}</p>
         </td></tr>
         `
     }).join('\n')
